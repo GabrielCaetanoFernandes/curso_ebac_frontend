@@ -1,0 +1,15 @@
+.iddle{
+    display: none;
+}
+.equal{
+    background-color: aliceblue;
+    color: black;
+}
+.error{
+    background-color: red;
+    color: aliceblue;
+}
+.success{
+    background-color: green;
+    color: aliceblue;
+}
