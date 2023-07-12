@@ -7,7 +7,7 @@ form.addEventListener('submit', function(e){
     numB = numB.value;
     let resposta = document.getElementById('retorno');
 
-    if(numA > numB){
+    if(numB > numA){
         resposta.style.display = 'block';
         resposta.classList.add('success');
         resposta.innerHTML = "Válido";
