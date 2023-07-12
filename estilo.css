@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding-top: 100px;
+    max-width: 1440px;
+}
+header{
+    padding: 16px 0;
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+header img{
+    height: 36px;
+    margin-right: 16px;
+    margin-left: 330px;
+
+}
+input{
+    margin-right: 6px;
+    outline: #FF9;
+    font-size: 24px;
+    border-radius: 15px 0 0 15px;
+    padding-left: 6px;
+    border: none;
+    height: 30px;
+    background-color: #fff;
+}
+input .seleciona-tarefa{
+    cursor: pointer;
+    height: 24px;
+}
+button{
+    height: 30px;
+    font-size: 24px;
+    border: none;
+    border-radius: 0 15px 15px 0;
+    background-color: #fff;
+    cursor: pointer;
+}
+ul{
+    align-items: center;
+}
+ul li{
+    font-size: 24px;
+}
+.container{
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+.post-it{
+    width: 590px;
+    height: 560px;
+    margin: 0px 250px;
+    padding: 60px;
+    border-radius: 60px;
+    background-color: #FF9;
+}
+.done{
+    text-decoration: line-through;
+}
+
+
