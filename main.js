@@ -8,7 +8,7 @@ $(document).ready(function(){
 
         $('ul').append(ajusteConteudo);
     })
-    $('ul, li').on('click', function(){
-        $('li').addClass('done');
+    $('ul').on('click', 'li', function(){
+        $(this).addClass('done');
     })
 })
